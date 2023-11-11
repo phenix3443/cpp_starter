@@ -1,9 +1,10 @@
 {
   "recommendations": [
+    "twxs.cmake",
+    "ms-vscode.cmake-tools",
+    "cheshirekow.cmake-format",
     "ms-vscode.cpptools",
-    "ms-vscode.cpptools-extension-pack",
-    "ms-vscode.cpptools-themes",
     "matepek.vscode-catch2-test-adapter",
-    "twxs.cmake"
+    "formulahendry.code-runner"
   ]
 }
