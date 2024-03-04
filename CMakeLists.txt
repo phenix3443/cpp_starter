@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.20.0)
 project(
-  helloworld
+  starter
   VERSION 0.1.0
   LANGUAGES C CXX)
 
 include(CTest)
 enable_testing()
 
-add_executable(helloworld main.cpp)
+add_subdirectory(greeting)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
