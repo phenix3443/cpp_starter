@@ -6,16 +6,18 @@
   "configurations": [
     {
       "name": "C/C++: clang++ build and debug active file",
-      "type": "cppdbg",
+      "type": "lldb",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
-      "stopAtEntry": true,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "lldb",
-      "preLaunchTask": "C/C++: clang++ build active file"
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug Tests",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/runTests",
+      "args": []
     }
   ]
 }

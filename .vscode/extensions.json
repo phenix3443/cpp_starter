@@ -6,6 +6,7 @@
     "ms-vscode.cpptools",
     "matepek.vscode-catch2-test-adapter",
     "formulahendry.code-runner",
-    "llvm-vs-code-extensions.vscode-clangd"
+    "llvm-vs-code-extensions.vscode-clangd",
+    "vadimcn.vscode-lldb"
   ]
 }
