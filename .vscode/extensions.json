@@ -3,7 +3,6 @@
     "twxs.cmake",
     "ms-vscode.cmake-tools",
     "cheshirekow.cmake-format",
-    "ms-vscode.cpptools",
     "matepek.vscode-catch2-test-adapter",
     "formulahendry.code-runner",
     "llvm-vs-code-extensions.vscode-clangd",
